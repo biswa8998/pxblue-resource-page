@@ -65,7 +65,7 @@ function NpmPackageSection(props) {
             <BarWithIcons
               link={e.title}
               label={e.title}
-              buildStatus="pass"
+              buildStatus={e.buildStatus}
               icons={icons}
             />
             <PackageCardGridList data={e.packages} />

@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: "#39b620"
   },
   buildStatusFail: {
-    backgroundColor: "#f0aa1f"
+    backgroundColor: "#bf5845"
   },
   npmPackageIcon: {
     padding: "4px",
